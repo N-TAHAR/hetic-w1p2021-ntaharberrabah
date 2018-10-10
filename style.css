@@ -44,13 +44,11 @@ ul{
 
 }
 
-
 li{
 	list-style-type: none;
 	display: inline-block;
 
 }
-
 
 li a{
 	text-decoration: none;
@@ -66,29 +64,9 @@ li a:hover{
 	-webkit-text-underline-position: under;
   -ms-text-underline-position: below;
   text-underline-position: under;
-	/*border-bottom: 2px solid white;*/
-	text-decoration: underline ;*/
-	/*text-underline-position: under;*/
+	text-decoration: underline;
 
 }
-
-
-
-
-/*
-li a:before{
-	content: '';
-	position: absolute;
-	border-bottom: 3px solid white;
-	bottom: 0;
-	right: 350px;
-	transition: 1s all;
-}
-
-li a:hover:before{
-	right: 0;
-	border-bottom: 3px solid white;
-}*/
 
 #icon_home{
 
