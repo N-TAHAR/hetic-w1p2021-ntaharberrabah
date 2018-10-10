@@ -1,0 +1,105 @@
+html{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: table;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 6em;
+	font-weight: 300;
+	position: absolute;
+	top: 24%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+p{
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 2em;
+	font-weight: 400;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+ul{
+	display: flex;
+	text-align: center;
+	position: fixed;
+	top: 4%;
+	left: 47.5%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+
+li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	font-family: 'Cinzel', serif;
+	font-size: 25px;
+	font-weight:;
+	margin-left:30px;*/
+}
+
+li a:hover{
+	-webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+	/*border-bottom: 2px solid white;*/
+	text-decoration: underline ;*/
+	/*text-underline-position: under;*/
+
+}
+
+
+
+
+/*
+li a:before{
+	content: '';
+	position: absolute;
+	border-bottom: 3px solid white;
+	bottom: 0;
+	right: 350px;
+	transition: 1s all;
+}
+
+li a:hover:before{
+	right: 0;
+	border-bottom: 3px solid white;
+}*/
+
+#icon_home{
+
+	width: 50px;
+	height: 50px;
+}
+
+#icon_home:hover{
+	border-bottom: 3px solid white;
+
+}
+
+
+
