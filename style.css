@@ -71,7 +71,7 @@ nav li a:hover{
 
 #icon_home{
 	position: absolute;
-	top: 4%;
+	top: 2%;
 	left: 1%;
 	border: 6px solid white;
 	border-radius: 30%;
@@ -81,19 +81,20 @@ nav li a:hover{
 }
 
 #icon_home:hover{
-	width: 60px;
-	height: 60px;
+	width: 55px;
+	height: 55px;
 
 
 }
 
 #sign_up{
 	position: absolute;
-	top: 4%;
+	top: 2%;
 	right: 1%;
 	text-decoration: none;
+	color: black;
+	background-color: white;
 	display: block;
-	color:white;
 	font-family: 'Anton', sans-serif;
 	font-size: 25px;
 	border: 3px solid white;
@@ -105,11 +106,31 @@ nav li a:hover{
 #sign_up:hover{
 	font-size: 30px;
 
+
 	/*-webkit-text-underline-position: under;
   -ms-text-underline-position: below;
   text-underline-position: under;
 	text-decoration: underline;*/
 
+}
+
+#log_in{
+	position: absolute;
+	top: 2%;
+	right: 9%;
+	text-decoration: none;
+	display: block;
+	color:white;
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+	border: 2px solid white;
+	border-radius: 10%;
+	padding: 10px;
+	transition: 1s;
+}
+
+#log_in:hover{
+	font-size: 30px;
 }
 
 #quote{
@@ -132,6 +153,8 @@ form{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	height: 300px;
+
 }
 
 input{
@@ -162,7 +185,7 @@ input::placeholder{
 	width: 150px;
 	height: 40px;
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Cinzel', serif;
 	text-decoration: none;
 	background: none;
@@ -175,9 +198,10 @@ input::placeholder{
 }
 
 #btn:hover{
+
 	width: 170px;
 	height: 50px;
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	background: white;
 	outline:none;
@@ -187,14 +211,16 @@ input::placeholder{
 #reseau{
 	display: flex;
 	position: absolute;
-	bottom: 0%;
+	bottom: 6%;
 	left: 0%;
+	width: 10%;
+	/*border: 1px solid red;*/
 }
 
 #reseau li{
 
 	padding:0;
-	margin-left: 5px; 
+	margin-left: 10px; 
 	border:3px solid black;
 	border-radius: 40%;
 	overflow: hidden;
@@ -210,4 +236,26 @@ input::placeholder{
 #reseau img:hover{
 	width: 50px;
 	height: 50px;
+}
+
+#icon_fb{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+#icon_twitter{
+	position: absolute;
+	top: 0%;
+	left: 30%;
+}
+
+#icon_insta{
+	position: absolute;
+	top: 0%;
+	left: 60%;
+}
+
+#reseau li a{
+
 }
