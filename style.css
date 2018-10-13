@@ -360,6 +360,10 @@ input::placeholder{
 	font-size: 1.9em;
 
 }
+#bloc_contact a{
+	list-style-type: none;
+	text-decoration: none;
+}
 
 #bloc_contact p{
 	color: white;
